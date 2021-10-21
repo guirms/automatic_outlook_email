@@ -1,4 +1,4 @@
-<h1 align="center">Automatic email sender</h1>
+<h1 align="center">Bot de e-mail</h1>
 
 >Status: Completo ✔️ 
 
@@ -6,8 +6,8 @@
 
 *Um projeto básico capaz de enviar e-mails via outlook de forma automática*
 
-## How the code works
-* O código simula o envio de um e-mail contendo uma tabela com informações variadas de determinados produtos. Para testar ou avaliar o código, você pode adicionar seu e-mail pessoal outlook na variável "email". Todo o processo de envio não deve levar mais do que 30 segundos (lembre de verificar a caixa de spam caso não receba nada neste tempo).
+## Como o código funciona
+* O código simula o envio de um e-mail contendo uma tabela com informações variadas de determinados produtos. Para testar ou avaliar o código, você pode adicionar seu e-mail pessoal na variável "email". Todo o processo de envio não deve levar mais do que 30 segundos (lembre de verificar a caixa de spam caso não receba nada neste tempo).
 
 ```python
 import pandas as pd
@@ -50,3 +50,7 @@ mail.Send()
 
 print('\n\nE-mail enviado!')
 ```
+## Resultado
+* Após rodar o programa, o e-mail que será enviado para você terá essas características:
+![image](https://user-images.githubusercontent.com/85650237/138314501-08d3e472-e118-4790-8f8c-e826fe9e7247.png)
+
