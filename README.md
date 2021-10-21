@@ -1,13 +1,13 @@
 <h1 align="center">Automatic email sender</h1>
 
->Status: Completed ✔️ 
+>Status: Completo ✔️ 
 
->Language used: Python 🐍
+>Linguagem utilizada: Python 🐍
 
-*A basic project that sends emails via outlook automatically using pandas and win32 library*
+*Um projeto básico capaz de enviar e-mails via outlook de forma automática*
 
 ## How the code works
-* This code simulates an email from an employee who wants to send a formatted table containing information for various products to a store. To test the code, you can put your outlook email in the variable "email"
+* O código simula o envio de um e-mail contendo uma tabela com informações variadas de determinados produtos. Para testar ou avaliar o código, você pode adicionar seu e-mail pessoal outlook na variável "email". Todo o processo de envio não deve levar mais do que 30 segundos (lembre de verificar a caixa de spam caso não receba nada neste tempo).
 
 ```python
 import pandas as pd
