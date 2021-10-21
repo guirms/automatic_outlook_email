@@ -2,7 +2,7 @@ import pandas as pd
 import win32com.client as win32
 
 tabela = pd.read_excel('Vendas.xlsx')
-
+email = 'guilhermeimprovisado394@gmail.com'
 
 faturamento = tabela[['ID Loja', 'Valor Final']].groupby('ID Loja').sum()
 print('\n', ' ' * 12, 'FATURAMENTO')
@@ -21,7 +21,7 @@ print(ticket)
 
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To = 'guilhermeimprovisado394@gmail.com'
+mail.To = email
 mail.Subject = 'Message subject'
 mail.Body = 'Message body'
 mail.HTMLBody = (f''' 
