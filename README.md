@@ -1,4 +1,4 @@
-=<h2 align="center">Automatic email sender</h2>
+<h2 align="center">Automatic email sender</h2>
 
 >Status: Completed ✔️ 
 
