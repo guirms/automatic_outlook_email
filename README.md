@@ -6,6 +6,13 @@
 
 *Um projeto básico capaz de enviar e-mails via outlook de forma automática*
 
+## Requisitos
+* Para rodar o bot, você precisará ter instalado na sua máquina as bibliotecas _pandas_ e _pywin32_. Para adicioná-las basta digitar em sua linha de comando ou no próprio terminal do seu IDE:
+> _pip install pandas_
+
+> _pip install pywin32_
+* Você precisará também ter instalado em sua máquina o [outlook](https://www.microsoft.com/pt-br/microsoft-365/outlook/outlook-for-business) para que o envio seja feito com sucesso.
+
 ## Como o código funciona
 * O código simula o envio de um e-mail contendo uma tabela com informações variadas de determinados produtos. Para testar ou avaliar o código, você pode adicionar seu e-mail pessoal na variável "email". Todo o processo de envio não deve levar mais do que 30 segundos (lembre de verificar a caixa de spam caso não receba nada neste tempo).
 
@@ -52,5 +59,5 @@ print('\n\nE-mail enviado!')
 ```
 ## Resultado
 * Após rodar o programa, o e-mail que será enviado para você terá essas características:
-![image](https://user-images.githubusercontent.com/85650237/138314501-08d3e472-e118-4790-8f8c-e826fe9e7247.png)
+![image](https://user-images.githubusercontent.com/85650237/138314860-4452569e-4f29-4a79-bf36-97834ce4d844.png)
 
